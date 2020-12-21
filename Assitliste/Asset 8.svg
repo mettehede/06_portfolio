@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Asset 8</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <g>
+          <rect class="cls-1" x="4" y="4" width="192" height="292"/>
+          <path d="M192,8V292H8V8H192m8-8H0V300H200V0Z"/>
+        </g>
+        <g>
+          <path d="M46.13,21.22,66.22,77.94l20-56.72h21.16v78.2H91.19V78.05l1.61-36.9L71.7,99.42H60.63L39.58,41.2l1.61,36.85V99.42H25.08V21.22Z"/>
+          <path d="M170.68,65.53H139.75v21h36.3V99.42H123.63V21.22H176V34.27h-36.2V52.91h30.93Z"/>
+          <path d="M95.11,124.27h-24v65.15H55.05V124.27H31.41v-13h63.7Z"/>
+          <path d="M166.23,124.27h-24v65.15H126.16V124.27H102.52v-13h63.71Z"/>
+          <path d="M121.94,245.53H91v21h36.31v12.94H74.89v-78.2h52.32v13.05H91v18.64h30.94Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

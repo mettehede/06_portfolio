@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255.99" height="46.21" viewBox="0 0 255.99 46.21">
+  <title>Asset 7</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <circle cx="12" cy="30.46" r="12"/>
+        <g>
+          <path d="M57.19,9.39,69.06,42.91,80.87,9.39h12.5V55.61H83.82V43l1-21.8L72.3,55.61H65.76L53.32,21.2l1,21.77V55.61H44.75V9.39Z" transform="translate(0 -9.39)"/>
+          <path d="M130.79,35.58H112.51V48H134v7.65H103V9.39H133.9v7.72H112.51v11h18.28Z" transform="translate(0 -9.39)"/>
+          <path d="M176.27,17.11H162.11v38.5h-9.52V17.11h-14V9.39h37.64Z" transform="translate(0 -9.39)"/>
+          <path d="M218.29,17.11H204.13v38.5h-9.52V17.11h-14V9.39h37.64Z" transform="translate(0 -9.39)"/>
+          <path d="M252.82,35.58H234.54V48H256v7.65H225V9.39h30.91v7.72H234.54v11h18.28Z" transform="translate(0 -9.39)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
