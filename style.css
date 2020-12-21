@@ -1,0 +1,83 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*splashbillede*/
+.spashbillede img {
+    max-width: none;
+    height: 100vh;
+    background-image: url(me2_clean_blackandwhite.jpg);
+    background-size: cover;
+    background-position: 25% 10%;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+/*FONT PÅ DET HELE*/
+
+
+/*NAVIGATION*/
+
+header {
+    background-color: #FAF7FB;
+}
+
+
+.header {
+    background: none;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+}
+
+.topbar img {
+    margin-left: 10px;
+    width: 200px;
+    height: 75px;
+}
+
+#knap {
+    grid-column-start: 3;
+    font-size: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #2D3A98;
+    cursor: pointer;
+}
+
+#knap:hover {
+    color: #fbaed2;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #2D3A98;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #fbaed2;
+}
+
+a {
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+/*Skjuler menuén indtil burgermenu er klikket på*/
+
+.toggle {
+    display: none;
+}
+
+/*NAVIGATION SLUT*/
