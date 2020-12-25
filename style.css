@@ -4,18 +4,11 @@ body {
     overflow-x: hidden;
 }
 
-/*splashbillede*/
-.spashbillede img {
-    max-width: none;
-    height: 100vh;
-    background-image: url(me2_clean_blackandwhite.jpg);
-    background-size: cover;
-    background-position: 25% 10%;
-    grid-template-rows: 1fr auto 1fr;
-}
+
 
 /*FONT PÅ DET HELE*/
 
+/*MOBILE SITE*/
 
 /*NAVIGATION*/
 
@@ -81,3 +74,78 @@ h3 {
 }
 
 /*NAVIGATION SLUT*/
+
+
+/*DESKTOP START*/
+@media (min-width: 769px) {
+
+    /*splashbillede*/
+    .spashbillede img {
+        max-width: none;
+        height: 100vh;
+        background-image: url(me2_clean_blackandwhite.jpg);
+        background-size: cover;
+        background-position: 25% 10%;
+        grid-template-rows: 1fr auto 1fr;
+    }
+
+
+    /*NAVIGATION*/
+
+    .topbar img {
+        width: 250px;
+        height: 100px;
+    }
+
+    #knap {
+        display: none;
+    }
+
+    header {
+        background-color: #FAF7FB;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+
+    nav.toggle {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(5, 20px);
+    }
+
+    nav a {
+        text-align: center;
+        color: #2D3A98;
+    }
+
+    nav a:hover {
+        color: #fbaed2;
+    }
+
+    #tema_02 {
+        grid-column-start: 5;
+        grid-row-start: 2;
+    }
+
+    #tema_03 {
+        grid-column-start: 6;
+        grid-row-start: 2;
+    }
+
+    #tema_04 {
+        grid-column-start: 7;
+        grid-row-start: 2;
+    }
+
+    #tema_05 {
+        grid-column-start: 8;
+        grid-row-start: 2;
+    }
+
+    #om_mig {
+        grid-column-start: 9;
+        grid-row-start: 2;
+    }
+
+
+}
