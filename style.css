@@ -2,6 +2,32 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/*gælder for alle sectioner disse regler*/
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    column-gap: 10px;
+    padding: 0 1rem;
+}
+
+/*gælder for alle section section_wrapper*/
+
+section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 
@@ -9,6 +35,16 @@ body {
 /*FONT PÅ DET HELE*/
 
 /*MOBILE SITE*/
+
+/*splashbillede*/
+.spashbillede img {
+    max-width: none;
+    height: 100vh;
+    background-image: url(me2_clean_blackandwhite.jpg);
+    background-size: cover;
+    background-position: 25% 10%;
+    grid-template-rows: 1fr auto 1fr;
+}
 
 /*NAVIGATION*/
 
@@ -67,6 +103,10 @@ h3 {
     font-family: font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 /*Skjuler menuén indtil burgermenu er klikket på*/
 
 .toggle {
@@ -75,19 +115,22 @@ h3 {
 
 /*NAVIGATION SLUT*/
 
+/*FOOTER START*/
+footer {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px;
+}
+
+
+#navn {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: #FAF7FB;
+}
 
 /*DESKTOP START*/
-@media (min-width: 769px) {
-
-    /*splashbillede*/
-    .spashbillede img {
-        max-width: none;
-        height: 100vh;
-        background-image: url(me2_clean_blackandwhite.jpg);
-        background-size: cover;
-        background-position: 25% 10%;
-        grid-template-rows: 1fr auto 1fr;
-    }
+@media (min-width: 600px) {
 
 
     /*NAVIGATION*/
@@ -145,6 +188,12 @@ h3 {
     #om_mig {
         grid-column-start: 9;
         grid-row-start: 2;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 10px;
     }
 
 
