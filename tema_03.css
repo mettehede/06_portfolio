@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     display: block;
@@ -23,13 +27,6 @@ section {
     width: 100vw;
     column-gap: 10px;
     padding: 0 1rem;
-}
-
-/*gælder for alle section section_wrapper*/
-
-section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 /*MOBILE SITE*/
@@ -97,6 +94,29 @@ h3 {
 }
 
 /*NAVIGATION SLUT*/
+
+/*INDHOLD*/
+#section_1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#video1 {
+    width: 400px;
+    height: 275px;
+}
+
+/*Pitch billeder*/
+#section_2 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 10px;
+}
+
+h2 {
+    text-align: center;
+}
 
 /*FOOTER*/
 footer {
@@ -173,6 +193,60 @@ footer {
     }
 
     /*NAV SLUT*/
+
+    /*INDHOLD TEMA03*/
+    #section_1 {
+        display: grid;
+        grid-template-columns: 600px auto auto;
+        text-align: left;
+        grid-gap: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #video {
+        grid-column-start: 2;
+    }
+
+
+    #video1 {
+        width: 500px;
+        height: 280px;
+    }
+
+    #tekst {
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    /*pitch billeder*/
+    #section_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+
+    #billede1 {
+        grid-column-start: 1;
+        width: 350px;
+        height: 350px;
+    }
+
+    #billede2 {
+        grid-column-start: 2;
+        width: 350px;
+        height: 350px;
+    }
+
+    #billede3 {
+        grid-column-start: 3;
+        width: 350px;
+        height: 350px;
+    }
 
     /*FOOTER*/
     footer {
