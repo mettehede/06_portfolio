@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     display: block;
@@ -23,13 +27,6 @@ section {
     width: 100vw;
     column-gap: 10px;
     padding: 0 1rem;
-}
-
-/*gælder for alle section section_wrapper*/
-
-section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 /*MOBILE SITE*/
