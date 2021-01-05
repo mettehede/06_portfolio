@@ -96,6 +96,17 @@ h3 {
 
 /*NAVIGATION SLUT*/
 
+/*TEKST OG BILLEDE INDHOLD*/
+#section_1 {
+    display: block;
+    text-align: center;
+}
+
+#billede {
+    width: 400x;
+    height: 275px;
+}
+
 /*FOOTER*/
 footer {
     display: grid;
@@ -170,6 +181,211 @@ footer {
     }
 
     /*NAV SLUT*/
+
+    /*TEKST OG BILLEDE INDHOLD*/
+    #section_1 {
+        display: grid;
+        grid-template-columns: 600px auto auto;
+        text-align: left;
+        grid-gap: 100px;
+        margin-top: 30px;
+    }
+
+    #billede {
+        grid-column-start: 2;
+        width: 500px;
+        height: 280px;
+    }
+
+    #tekst {
+        text-align: left;
+    }
+
+    /*INDHOLD ANIMATIONS KLODSER*/
+
+    #screen {
+        position: relative;
+        width: 100vw;
+        height: 30vw;
+        overflow: hidden;
+    }
+
+    #elements {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #pink_container {
+        position: absolute;
+        top: 5vw;
+        left: 10vw;
+        /* z-index: 99;*/
+    }
+
+    #pink_sprite {
+        background-image: url(Assitliste/pink.svg);
+        background-size: cover;
+        width: 9vw;
+        height: 9.8vw;
+    }
+
+    /*animations effekt drej*/
+    .drej {
+        animation-name: drej_kf;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+    }
+
+    @keyframes drej_kf {
+        0% {
+            transform: rotate(0);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /*elementer blå klodser*/
+
+    #klods1_container {
+        position: absolute;
+        top: 5vw;
+        left: 24vw;
+        /*z-index: 99;*/
+    }
+
+    #klods1_sprite {
+        background-image: url(Assitliste/klods1.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods2_container {
+        position: absolute;
+        top: 5vw;
+        left: 32vw;
+        /*z-index: 99;*/
+    }
+
+    #klods2_sprite {
+        background-image: url(Assitliste/klods2.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods3_container {
+        position: absolute;
+        top: 5vw;
+        left: 40vw;
+        /*z-index: 99;*/
+    }
+
+    #klods3_sprite {
+        background-image: url(Assitliste/klods3.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods4_container {
+        position: absolute;
+        top: 5vw;
+        left: 48vw;
+        /*z-index: 99;*/
+    }
+
+    #klods4_sprite {
+        background-image: url(Assitliste/klods4.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods5_container {
+        position: absolute;
+        top: 5vw;
+        left: 56vw;
+        /*z-index: 99;*/
+    }
+
+    #klods5_sprite {
+        background-image: url(Assitliste/klods5.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods6_container {
+        position: absolute;
+        top: 5vw;
+        left: 64vw;
+        /*z-index: 99;*/
+    }
+
+    #klods6_sprite {
+        background-image: url(Assitliste/klods6.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods7_container {
+        position: absolute;
+        top: 5vw;
+        left: 72vw;
+        /*z-index: 99;*/
+    }
+
+    #klods7_sprite {
+        background-image: url(Assitliste/klods7.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    #klods8_container {
+        position: absolute;
+        top: 5vw;
+        left: 80vw;
+        /*z-index: 99;*/
+    }
+
+    #klods8_sprite {
+        background-image: url(Assitliste/klods8.svg);
+        background-size: cover;
+        width: 7vw;
+        height: 7.8vw;
+    }
+
+    /*animations effekt hop*/
+
+    .hop {
+        animation-name: hop_kf;
+        animation-duration: 1s;
+        animation-iteration-count: 2;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+
+    @keyframes hop_kf {
+        0% {
+            top: 20vw;
+        }
+
+        100% {
+            top: 10vw;
+        }
+    }
+
+    /*INDHOLD ANIMATIONS KLODSER SLUT*/
 
     /*FOOTER*/
     footer {
