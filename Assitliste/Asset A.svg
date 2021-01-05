@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="236" viewBox="0 0 236 236">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4657c8;
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #faf7fb;
+        stroke: #faf7fb;
+      }
+    </style>
+  </defs>
+  <title>Asset A</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" x="0.5" y="0.5" width="235" height="235"/>
+        <path class="cls-2" d="M97.72,72.22h35l37.2,84H124.6L112,128.38H85.6L74.8,156.22H66Zm10.92,48.84L97.72,96.7l-9.48,24.36Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
