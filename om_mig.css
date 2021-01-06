@@ -95,6 +95,27 @@ h3 {
 
 /*NAVIGATION SLUT*/
 
+/*INDHOLD*/
+
+.picture img {
+    display: block;
+    margin: auto;
+    border: 1px;
+    width: 250px;
+    padding: 4px;
+}
+
+#section_2 {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+}
+
 /*FOOTER*/
 footer {
     display: grid;
@@ -170,17 +191,39 @@ footer {
 
     /*NAV SLUT*/
 
-    /*FOOTER*/
-    footer {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 10px;
+    /*INDHOLD*/
+    .picture img {
+        display: block;
+        margin: auto;
+        border: 1px;
+        width: 250px;
+        padding: 4px;
     }
 
-    #navn {
+    #section_2 {
         display: grid;
-        grid-template-columns: 150px 1fr;
-        background-color: #FAF7FB;
+        grid-template-columns: 1fr;
+        margin: auto;
+        column-gap: 10px;
+        justify-content: center;
     }
 
+    .pdfcv {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*FOOTER*/
+footer {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px;
+}
+
+#navn {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: #FAF7FB;
 }
