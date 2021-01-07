@@ -84,8 +84,13 @@ a {
     font-family: font-family: 'Roboto', sans-serif;
 }
 
+h2,
 h3 {
     font-family: font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/
@@ -95,6 +100,34 @@ h3 {
 }
 
 /*NAVIGATION SLUT*/
+
+/*INDHOLD*/
+#section_1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#video1 {
+    width: 400px;
+    height: 275px;
+}
+
+#section_2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*GALLERI*/
+#galleri {
+    display: grid;
+    grid-gap: 10px;
+}
+
+h3 {
+    text-align: center;
+}
 
 /*FOOTER*/
 footer {
@@ -170,6 +203,85 @@ footer {
     }
 
     /*NAV SLUT*/
+
+    /*INDHOLD*/
+    #section_1 {
+        display: grid;
+        text-align: center;
+        grid-gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #video {
+        grid-column-start: 1;
+    }
+
+    #video1 {
+        width: 1000px;
+        height: 780px;
+    }
+
+
+    #section_2 {
+        display: grid;
+        grid-template-columns: 600px auto auto;
+        text-align: left;
+        grid-gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    #text {
+        text-align: left;
+    }
+
+    #temadokumentation {
+        grid-column-start: 2;
+    }
+
+    /*GELLERI*/
+    #galleri {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+
+    #billede1 {
+        grid-column-start: 1;
+        width: 350px;
+        height: 350px;
+    }
+
+    #billede2 {
+        grid-column-start: 2;
+        width: 350px;
+        height: 350px;
+    }
+
+    #billede3 {
+        grid-column-start: 1;
+        width: 350px;
+        height: 350px;
+    }
+
+    #billede4 {
+        grid-column-start: 2;
+        width: 350px;
+        height: 350px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+
     /*FOOTER*/
     footer {
         display: grid;
