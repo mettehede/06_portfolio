@@ -83,8 +83,13 @@ a {
     font-family: font-family: 'Roboto', sans-serif;
 }
 
+h2,
 h3 {
     font-family: font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/
