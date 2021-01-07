@@ -84,8 +84,13 @@ a {
     font-family: font-family: 'Roboto', sans-serif;
 }
 
+h2,
 h3 {
     font-family: font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*Skjuler menuén indtil burgermenu er klikket på*/
@@ -100,11 +105,12 @@ h3 {
 #section_1 {
     display: block;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-#billede {
-    width: 400x;
-    height: 275px;
+#designdokumentation {
+    align-items: center;
+
 }
 
 /*FOOTER*/
@@ -191,10 +197,9 @@ footer {
         margin-top: 30px;
     }
 
-    #billede {
+    #designdokumentation {
         grid-column-start: 2;
         width: 500px;
-        height: 280px;
     }
 
     #tekst {
