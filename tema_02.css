@@ -29,11 +29,6 @@ section {
     padding: 0 1rem;
 }
 
-/*section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-} */
-
 .center {
     display: block;
     margin-left: auto;
@@ -100,6 +95,10 @@ h2 {
     font-family: font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 /*Skjuler menuén indtil burgermenu er klikket på*/
 
 .toggle {
@@ -115,7 +114,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-button {
+/*button {
     padding: 1rem 2.09rem;
     margin-top: 1.1rem;
     border: 0;
@@ -133,7 +132,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 #section_1 img {
     width: 50%;
@@ -147,7 +146,7 @@ button:hover {
     margin-bottom: 30px;
 }
 
-button2 {
+/*button2 {
     padding: 1rem 2.09rem;
     margin-top: 1.1rem;
     border: 0;
@@ -165,7 +164,7 @@ button2:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 #section_2 img {
     width: 50%;
