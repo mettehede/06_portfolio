@@ -190,6 +190,10 @@ footer {
 /*DESKTOP START*/
 @media (min-width: 600px) {
 
+    p {
+        font-size: 1.2rem;
+    }
+
     /*NAVIGATION*/
 
     .topbar img {
