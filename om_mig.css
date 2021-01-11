@@ -202,6 +202,14 @@ footer {
     /*NAV SLUT*/
 
     /*INDHOLD*/
+    #overskrift {
+        font-size: 1.5rem;
+    }
+
+    #section_1 {
+        font-size: 1.2rem;
+    }
+
     .picture img {
         display: block;
         margin: auto;
@@ -224,6 +232,7 @@ footer {
     }
 
 }
+
 
 /*FOOTER*/
 footer {
