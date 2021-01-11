@@ -125,6 +125,7 @@ p {
     grid-gap: 10px;
 }
 
+h2,
 h3 {
     text-align: center;
 }
@@ -144,6 +145,10 @@ footer {
 
 /*DESKTOP START*/
 @media (min-width: 600px) {
+
+    p {
+        font-size: 1.2rem;
+    }
 
     /*NAVIGATION*/
 
@@ -212,6 +217,7 @@ footer {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
 
     #video {
         grid-column-start: 1;
