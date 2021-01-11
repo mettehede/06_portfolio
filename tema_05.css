@@ -108,9 +108,19 @@ p {
     margin-bottom: 30px;
 }
 
-#video1 {
-    width: 400px;
-    height: 275px;
+.iframe_container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #section_2 {
@@ -217,17 +227,6 @@ footer {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
-
-    #video {
-        grid-column-start: 1;
-    }
-
-    #video1 {
-        width: 1000px;
-        height: 780px;
-    }
-
 
     #section_2 {
         display: grid;
