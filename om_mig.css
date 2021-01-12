@@ -113,6 +113,7 @@ p {
 #iframepdf {
     display: block;
     margin: auto;
+    margin-bottom: 10px;
     width: 400px;
     height: 400px;
 }
@@ -224,6 +225,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
+        margin-bottom: 10px;
         column-gap: 10px;
         justify-content: center;
     }
