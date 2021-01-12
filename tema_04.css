@@ -298,6 +298,7 @@ p {
 
 }
 
+
 /*FOOTER*/
 footer {
     display: grid;
@@ -314,7 +315,7 @@ footer {
 /*DESKTOP START*/
 @media (min-width: 600px) {
 
-    p {
+    #tekst p {
         font-size: 1.2rem;
     }
 

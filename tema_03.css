@@ -133,13 +133,6 @@ h2 {
     text-align: center;
 }
 
-/*#section_3 {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-gap: 10px;
-    text-align: center;
-}*/
-
 /*section PDF 3*/
 #text h2,
 h4,
@@ -220,7 +213,7 @@ footer {
 /*DESKTOP START*/
 @media (min-width: 600px) {
 
-    p {
+    #tekst p {
         font-size: 1.2rem;
     }
 
