@@ -110,12 +110,13 @@ p {
     padding: 4px;
 }
 
-#section_2 {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    margin-top: 30px;
-    margin-bottom: 30px;
+#iframepdf {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
 }
+
 
 p {
     text-align: center;
@@ -124,6 +125,7 @@ p {
 h2 {
     margin-top: 30px;
     text-align: center;
+    color: #fbaed2;
 }
 
 /*FOOTER*/
@@ -225,12 +227,6 @@ footer {
         column-gap: 10px;
         justify-content: center;
     }
-
-    .pdfcv {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
 }
 
 

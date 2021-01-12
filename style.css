@@ -46,6 +46,21 @@ section .section_wrapper {
     grid-template-rows: 1fr auto 1fr;
 }
 
+#portfolio_container {
+    position: absolute;
+    top: 52vw;
+    left: 63vw;
+    /* z-index: 99;*/
+}
+
+#portfolio_sprite {
+    background-image: url(Assitliste/portfolioblue.svg);
+    background-size: cover;
+    width: 14vw;
+    height: 26.8vw;
+}
+
+
 /*NAVIGATION*/
 
 header {
@@ -96,11 +111,11 @@ nav a:hover {
 }
 
 a {
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -189,6 +204,23 @@ footer {
         grid-column-start: 9;
         grid-row-start: 2;
     }
+
+    /*PORTFOLIO TEKST*/
+    #portfolio_container {
+        position: absolute;
+        top: 38vw;
+        left: 70vw;
+        /* z-index: 99;*/
+    }
+
+    #portfolio_sprite {
+        background-image: url(Assitliste/portfolioblue.svg);
+        background-size: cover;
+        width: 12.5vw;
+        height: 24vw;
+    }
+
+    /*FOOTER*/
 
     footer {
         display: grid;
